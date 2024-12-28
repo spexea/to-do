@@ -1,0 +1,10 @@
+/* Animación suave en botones */
+button:hover {
+  background-color: #4a90e2;
+  transition: background-color 0.3s ease;
+}
+
+/* Transición en el Modal */
+.modal {
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}

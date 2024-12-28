@@ -1,0 +1,21 @@
+@keyframes dot {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.dot {
+  animation: dot 1s infinite;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+}
